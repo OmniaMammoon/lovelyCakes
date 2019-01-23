@@ -1,0 +1,141 @@
+/*start main rules*/
+body{
+    background: #DDD;
+    direction: rtl;
+    font-family: 'DroidArabicKufiRegular'; 
+}
+.container{
+    width:940px;
+    margin:20px auto;
+    background-color: #fff;
+  
+}
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+/*end main rules*/
+/*start header*/
+header{
+    min-height: 100px;
+    background-color: #AAA;
+    overflow: hidden;
+}
+
+header .logo{
+    
+    width: 20%;
+    float: right;
+}
+header .logo img{
+    width:100px;
+    margin: 10px 10px 10px 0;
+
+}
+
+header nav{
+    
+    width: 80%;
+    float: left;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    
+}
+header nav ul{
+    margin: 50 50 0 0;
+    
+    font-weight: bold;
+    font-size: 18px;
+}
+/*end header*/
+/**********************************************/
+
+/*start content*/
+.content{
+    
+    background-color: #BBB;
+    overflow: hidden;
+}
+.content .sidebar{
+    width:25%;
+    float: right;
+    margin-left: 1%;
+    
+    min-height: 500px;
+}
+
+.content .sidebar .widget{
+    width: 90%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+
+
+.content .sidebar .widget .title{
+    background: #222;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    
+}
+.content .sidebar .widget .data ul {
+    text-align: right;
+}
+.content .sidebar .widget .data ul li{
+    padding: 10px ;
+    
+
+}
+.content .sidebar .widget .data{
+    text-align: center;
+    padding: 5px 0;
+    
+}
+.content .sidebar .widget .data img{
+    max-width:80% ;
+    margin: 10px auto;
+}
+.content .products{
+    width: 74%;
+    padding: 0 0 20px 0;
+    float: left;
+   
+}
+.content .products .product{
+    width: 23%;
+    float: right;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+.content .products .product img{
+    max-width: 100%;
+}
+/*end content*/
+
+/*******************************************/
+
+/*start footer*/
+footer{
+   min-height: 100px;
+    background-color: #CCC;
+}
+footer .info{
+    height: 100px;
+    background-color: #777;
+}
+footer .copyrights{
+    height: 20px;
+    background-color: #333;
+}
+/*end footer*/
