@@ -1,4 +1,7 @@
 /*start main rules*/
+*{
+    box-sizing: border-box;
+}
 body{
     background: #DDD;
     direction: rtl;
