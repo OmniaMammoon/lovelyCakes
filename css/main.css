@@ -133,12 +133,12 @@ footer{
    min-height: 100px;
     background-color: #CCC;
 }
-footer .info{
-    height: 100px;
-    background-color: #777;
-}
+
 footer .copyrights{
-    height: 20px;
+    
     background-color: #333;
+    padding: 10px 0;
+    color: #999;
+    text-align: center;
 }
 /*end footer*/
